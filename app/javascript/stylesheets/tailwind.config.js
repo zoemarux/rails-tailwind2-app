@@ -1,4 +1,7 @@
 module.exports = {
+    experimental: {
+    applyComplexClasses: true,
+    },
     purge: [
       "./app/**/*.html.erb",
       "./app/helpers/**/*.rb",
