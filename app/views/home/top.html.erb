@@ -1,2 +1,16 @@
 <h1>Home#top</h1>
 <p>Find me in app/views/home/top.html.erb</p>
+<div class="inline-block mr-2 mt-2">
+    <%= render(ExampleComponent.new(title: "my title")) do %>
+        view-component
+    <% end %>
+</div>
+<div class="inline-block mr-2 mt-2">
+    <button type="button" class="btn btn-primary">Primary</button>
+</div>
+<div class="inline-block mr-2 mt-2">
+    <button type="button" class="btn btn-secondary">Secondary</button>
+</div>
+<div class="inline-block mr-2 mt-2">
+    <button type="button" class="btn btn-success">Success</button>
+</div>

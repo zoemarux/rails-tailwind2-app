@@ -1,3 +1,18 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+@layer components {
+    .btn {
+        @apply focus:outline-none text-white text-sm py-2.5 px-5 rounded-md hover:shadow-lg;
+    }
+    .btn-primary{
+        @apply bg-blue-500 hover:bg-blue-600;
+    }
+    .btn-secondary{
+        @apply bg-gray-500 hover:bg-gray-600;
+    }
+    .btn-success{
+        @apply bg-green-500 hover:bg-green-600;
+    }
+}
